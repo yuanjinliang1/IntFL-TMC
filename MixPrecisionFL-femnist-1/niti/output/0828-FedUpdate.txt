@@ -1,0 +1,10 @@
+current test round: 0
+average accuracy: 4.489995110261842
+current test round: 20
+average accuracy: 24.670570969290708
+current test round: 40
+average accuracy: 37.99414342598196
+current test round: 60
+average accuracy: 48.535871082192344
+current test round: 80
+average accuracy: 52.95265977635158

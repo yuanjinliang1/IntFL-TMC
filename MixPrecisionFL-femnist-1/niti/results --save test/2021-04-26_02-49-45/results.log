@@ -1,0 +1,10 @@
+2021-04-26 02:49:45 - INFO - saving to ./results --save test/2021-04-26_02-49-45
+2021-04-26 02:49:45 - INFO - run arguments: Namespace(batch_size=5, data_dir='/niti', dataset='mnist', depth=11, download=True, evaluate=None, grad_hist=False, init='', log_interval=1, model='lenet', model_type='float', num_epochs=1, num_round=5000, results_dir='./results --save test', resume='', save='2021-04-26_02-49-45', save_all=False, seed=-1, start_epoch=0, weight_decay=False, weight_frac=False, weight_hist=False, workers=8)
+2021-04-26 02:49:45 - INFO - random seed: None
+2021-04-26 02:49:45 - INFO - act rounding scheme: PstoShiftInt32
+2021-04-26 02:49:45 - INFO - err rounding scheme: PstoShiftInt32
+2021-04-26 02:49:45 - INFO - gradient rounding scheme: PstoShiftInt32
+2021-04-26 02:49:48 - INFO - created float network on mnist
+2021-04-26 02:49:48 - INFO - number of parameters: 457132
+2021-04-26 02:53:45 - DEBUG - OPTIMIZER - setting lr = 0.01
+2021-04-26 02:53:45 - DEBUG - OPTIMIZER - setting momentum = 0.5

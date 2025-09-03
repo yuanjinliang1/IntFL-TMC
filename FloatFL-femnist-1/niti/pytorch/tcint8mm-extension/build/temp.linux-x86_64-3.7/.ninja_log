@@ -1,0 +1,7 @@
+# ninja log v5
+0	17858	1616507348272117336	/niti/pytorch/tcint8mm-extension/build/temp.linux-x86_64-3.7/int8mm.o	b26139a3ef44a8af
+1	54636	1616507385049993158	/niti/pytorch/tcint8mm-extension/build/temp.linux-x86_64-3.7/int8mm_kernel.o	f5d3679a0dd42a2c
+1	34452	1617631475096933751	/niti/pytorch/tcint8mm-extension/build/temp.linux-x86_64-3.7/int8mm.o	b26139a3ef44a8af
+1	80454	1617631521104817732	/niti/pytorch/tcint8mm-extension/build/temp.linux-x86_64-3.7/int8mm_kernel.o	f5d3679a0dd42a2c
+0	26430	1623744034389195629	/niti/pytorch/tcint8mm-extension/build/temp.linux-x86_64-3.7/int8mm.o	b26139a3ef44a8af
+0	70669	1623744078629099914	/niti/pytorch/tcint8mm-extension/build/temp.linux-x86_64-3.7/int8mm_kernel.o	f5d3679a0dd42a2c

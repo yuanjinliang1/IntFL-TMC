@@ -1,0 +1,101 @@
+1000
+current test round: 0
+average accuracy: 29.282576809050457
+current test round: 20
+average accuracy: 73.76769150659013
+current test round: 40
+average accuracy: 72.37676908121625
+current test round: 60
+average accuracy: 76.54953629869318
+current test round: 80
+average accuracy: 76.9887749619342
+current test round: 100
+average accuracy: 76.35431913168271
+current test round: 120
+average accuracy: 77.9160565589916
+current test round: 140
+average accuracy: 78.1844801793394
+current test round: 160
+average accuracy: 78.11127372693294
+current test round: 180
+average accuracy: 77.6476329386438
+current test round: 200
+average accuracy: 77.91605655992247
+current test round: 220
+average accuracy: 76.11029764476085
+current test round: 240
+average accuracy: 77.62323080521784
+current test round: 260
+average accuracy: 78.86774031181578
+current test round: 280
+average accuracy: 78.40409950770187
+current test round: 300
+average accuracy: 78.1112737371725
+current test round: 320
+average accuracy: 76.45192771937685
+current test round: 340
+average accuracy: 77.64763293492032
+current test round: 360
+average accuracy: 78.86774029878362
+current test round: 380
+average accuracy: 77.94045870079536
+current test round: 400
+average accuracy: 78.45290380247981
+current test round: 420
+average accuracy: 79.35578325121736
+current test round: 440
+average accuracy: 78.42850165136737
+current test round: 460
+average accuracy: 78.47730595452312
+current test round: 480
+average accuracy: 79.233772531959
+current test round: 500
+average accuracy: 79.50219614020553
+current test round: 520
+average accuracy: 78.11127374089597
+current test round: 540
+average accuracy: 79.33138110103579
+current test round: 560
+average accuracy: 77.7208393836033
+current test round: 580
+average accuracy: 80.20985841169306
+current test round: 600
+average accuracy: 78.47730594800704
+current test round: 620
+average accuracy: 78.30649092186945
+current test round: 640
+average accuracy: 79.8438261952733
+current test round: 660
+average accuracy: 79.16056607396735
+current test round: 680
+average accuracy: 77.33040502444891
+current test round: 700
+average accuracy: 79.35578324377042
+current test round: 720
+average accuracy: 78.47730594893791
+current test round: 740
+average accuracy: 79.52659828852536
+current test round: 760
+average accuracy: 79.25817466166149
+current test round: 780
+average accuracy: 78.50170809167254
+current test round: 800
+average accuracy: 79.72181547229147
+current test round: 820
+average accuracy: 79.69741332304076
+current test round: 840
+average accuracy: 78.30649092186945
+current test round: 860
+average accuracy: 79.69741331838642
+current test round: 880
+average accuracy: 77.8916544097409
+current test round: 900
+average accuracy: 77.6232307977709
+current test round: 920
+average accuracy: 79.47779398723135
+current test round: 940
+average accuracy: 79.69741332117903
+current test round: 960
+average accuracy: 80.06344552922097
+current test round: 980
+average accuracy: 78.08687158233657

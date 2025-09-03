@@ -1,0 +1,3 @@
+CUDA_VISIBLE_DEVICES=0 python ti_main.py --model-type 'hybrid' --model 'lenet' --num-round 600 --num-clients 25 --grad-bitwidth 3 > ./output-test-1/0906-FedUpdate-gb3.txt &
+CUDA_VISIBLE_DEVICES=1 python ti_main.py --model-type 'hybrid' --model 'lenet' --num-round 600 --num-clients 25 --grad-bitwidth 2 > ./output-test-1/0906-FedUpdate-gb2.txt &
+CUDA_VISIBLE_DEVICES=2 python ti_main.py --model-type 'hybrid' --model 'lenet' --num-round 600 --num-clients 25 --grad-bitwidth 1 > ./output-test-1/0906-FedUpdate-gb1.txt &
