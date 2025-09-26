@@ -8,12 +8,12 @@ Our core contribution demonstrates that this approach can achieve substantial en
 
 ## Project Structure
 project-root/ <br>
-├── Data/           # Scripts for dataset downloading, preprocessing, and partitioning
-├── On-device cost/            # Source code for the training latency and energy measurement on mobile devices 
-├── FloatFL/         # Baseline: the traditional FP32-based FL protocol with FedAvg
-├── QuanFL-SignSGD/    # Baseline: reducing the network transmission time through model quantization as INT8 format, but still using FP32-based training on devices
-├── Q-FedAvg/          # Baseline: directly integrating INT8 training with FedAvg
-├── Q-FedUpdate/           # Our proposed algorithm
+├── Data/           # Scripts for dataset downloading, preprocessing, and partitioning <br>
+├── On-device cost/            # Source code for the training latency and energy measurement on mobile devices <br>
+├── FloatFL/         # Baseline: the traditional FP32-based FL protocol with FedAvg <br>
+├── QuanFL-SignSGD/    # Baseline: reducing the network transmission time through model quantization as INT8 format, but still using FP32-based training on devices <br>
+├── Q-FedAvg/          # Baseline: directly integrating INT8 training with FedAvg <br>
+├── Q-FedUpdate/           # Our proposed algorithm <br>
 
 
 ## Usage: for each algorithm (FloatFL, QuanFL-SignSGD, Q-FedAvg, Q-FedUpdate)
