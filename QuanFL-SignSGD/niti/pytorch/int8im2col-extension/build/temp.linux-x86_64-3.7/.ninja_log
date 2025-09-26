@@ -1,0 +1,3 @@
+# ninja log v5
+0	22388	1647001977285634423	/niti/pytorch/int8im2col-extension/build/temp.linux-x86_64-3.7/int_im2col.o	3d6958cacd6d04d6
+1	71418	1647002026313637338	/niti/pytorch/int8im2col-extension/build/temp.linux-x86_64-3.7/int_im2col_kernel.o	d04b8443614c62ae

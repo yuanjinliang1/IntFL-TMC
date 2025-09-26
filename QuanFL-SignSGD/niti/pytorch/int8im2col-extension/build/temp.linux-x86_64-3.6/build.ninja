@@ -1,0 +1,27 @@
+ninja_required_version = 1.3
+cxx = c++
+nvcc = /usr/local/cuda/bin/nvcc
+
+cflags = -pthread -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -I/niti/pytorch/int8im2col-extension -I/home/cdq/.local/lib/python3.6/site-packages/torch/include -I/home/cdq/.local/lib/python3.6/site-packages/torch/include/torch/csrc/api/include -I/home/cdq/.local/lib/python3.6/site-packages/torch/include/TH -I/home/cdq/.local/lib/python3.6/site-packages/torch/include/THC -I/usr/local/cuda/include -I/usr/include/python3.6m -c
+post_cflags = -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=int_im2col_cuda -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++14
+cuda_cflags = -I/niti/pytorch/int8im2col-extension -I/home/cdq/.local/lib/python3.6/site-packages/torch/include -I/home/cdq/.local/lib/python3.6/site-packages/torch/include/torch/csrc/api/include -I/home/cdq/.local/lib/python3.6/site-packages/torch/include/TH -I/home/cdq/.local/lib/python3.6/site-packages/torch/include/THC -I/usr/local/cuda/include -I/usr/include/python3.6m -c
+cuda_post_cflags = -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options ''"'"'-fPIC'"'"'' -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=int_im2col_cuda -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_70,code=sm_70 -std=c++14
+ldflags = 
+
+rule compile
+  command = $cxx -MMD -MF $out.d $cflags -c $in -o $out $post_cflags
+  depfile = $out.d
+  deps = gcc
+
+rule cuda_compile
+  command = $nvcc $cuda_cflags -c $in -o $out $cuda_post_cflags
+
+
+
+build /data2/yjl/code/QuanFL-SignSGD/niti/pytorch/int8im2col-extension/build/temp.linux-x86_64-3.6/int_im2col.o: compile /data2/yjl/code/QuanFL-SignSGD/niti/pytorch/int8im2col-extension/int_im2col.cpp
+build /data2/yjl/code/QuanFL-SignSGD/niti/pytorch/int8im2col-extension/build/temp.linux-x86_64-3.6/int_im2col_kernel.o: cuda_compile /data2/yjl/code/QuanFL-SignSGD/niti/pytorch/int8im2col-extension/int_im2col_kernel.cu
+
+
+
+
+

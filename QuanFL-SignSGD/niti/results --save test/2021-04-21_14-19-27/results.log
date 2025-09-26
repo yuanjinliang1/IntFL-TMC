@@ -1,0 +1,7 @@
+2021-04-21 14:19:27 - INFO - saving to ./results --save test/2021-04-21_14-19-27
+2021-04-21 14:19:27 - INFO - run arguments: Namespace(batch_size=5, data_dir='/niti', dataset='cifar10', depth=11, download=True, epochs=200, evaluate=None, grad_hist=False, init='', log_interval=20, model='lenet', model_type='int', results_dir='./results --save test', resume='', save='2021-04-21_14-19-27', save_all=False, seed=-1, start_epoch=0, weight_decay=False, weight_frac=False, weight_hist=False, workers=8)
+2021-04-21 14:19:27 - INFO - random seed: None
+2021-04-21 14:19:27 - INFO - act rounding scheme: PstoShiftInt32
+2021-04-21 14:19:27 - INFO - err rounding scheme: PstoShiftInt32
+2021-04-21 14:19:27 - INFO - gradient rounding scheme: PstoShiftInt32
+2021-04-21 14:19:27 - INFO - Create integer model
